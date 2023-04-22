@@ -1,28 +1,3 @@
-/*let current = document.querySelector("#day");
-
-let today = new Date();
-let currentDate = today.getDate();
-let hour = today.getHours();
-let minutes = today.getMinutes();
-let sec = today.getSeconds();
-let days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
-
-current.innerHTML = `${days}, ${currentDate}, ${hour} : ${minutes}: ${sec}`;
-return current;
-
-//Add a search engine, when searching for a city (i.e. Paris), display the city name on the page after the user submits the form.
-function rplace(event) {
-  let find = document.querySelector("#replace");
-  find.innerHTML = function SearchBar(event) {
-    event.preventDefault();
-    let searchCity = document.querySelector("#search");
-    console.log(searchCity.value);
-  };
-  let tnk = document.querySelector("#replace");
-  tnk.addEventListener("click", rplace);
-}
-rplace();*/
-
 //In your project, when a user searches for a city (example: New York), it should display the name of the city on the result page and the current temperature of the city.
 let exactDate = document.querySelector("#preciseDate");
 let now = new Date();
